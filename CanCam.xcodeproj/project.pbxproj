@@ -10,9 +10,23 @@
 		2B1D383E211E83EF00F3BADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D383D211E83EF00F3BADD /* AppDelegate.swift */; };
 		2B1D3840211E83EF00F3BADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D383F211E83EF00F3BADD /* ViewController.swift */; };
 		2B1D3843211E83EF00F3BADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D3841211E83EF00F3BADD /* Main.storyboard */; };
-		2B1D3846211E83EF00F3BADD /* CanCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3844211E83EF00F3BADD /* CanCam.xcdatamodeld */; };
 		2B1D3848211E83F100F3BADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D3847211E83F100F3BADD /* Assets.xcassets */; };
 		2B1D384B211E83F100F3BADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D3849211E83F100F3BADD /* LaunchScreen.storyboard */; };
+		2B1D3853211E88CF00F3BADD /* PhotosTakenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3852211E88CF00F3BADD /* PhotosTakenVC.swift */; };
+		2B1D3855211E8A5C00F3BADD /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D3854211E8A5C00F3BADD /* PhotoCell.swift */; };
+		2B20881B216B255B00FCF733 /* Timer@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B208815216B255A00FCF733 /* Timer@1x.png */; };
+		2B20881C216B255B00FCF733 /* Timer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B208816216B255A00FCF733 /* Timer@2x.png */; };
+		2B20881E216B255B00FCF733 /* Timer@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B208818216B255B00FCF733 /* Timer@3x.png */; };
+		2B778FB6216B273A00532CBA /* Amount@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FB3216B273A00532CBA /* Amount@1x.png */; };
+		2B778FB7216B273A00532CBA /* Amount@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FB4216B273A00532CBA /* Amount@3x.png */; };
+		2B778FB8216B273A00532CBA /* Amount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FB5216B273A00532CBA /* Amount@2x.png */; };
+		2B778FBF216B296E00532CBA /* Reset@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FB9216B296D00532CBA /* Reset@3x.png */; };
+		2B778FC0216B296E00532CBA /* Reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FBA216B296D00532CBA /* Reset@2x.png */; };
+		2B778FC1216B296E00532CBA /* Gallery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FBB216B296D00532CBA /* Gallery@3x.png */; };
+		2B778FC2216B296E00532CBA /* Reset@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FBC216B296E00532CBA /* Reset@1x.png */; };
+		2B778FC3216B296E00532CBA /* Gallery@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FBD216B296E00532CBA /* Gallery@1x.png */; };
+		2B778FC4216B296E00532CBA /* Gallery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B778FBE216B296E00532CBA /* Gallery@2x.png */; };
+		2B778FC6216BD01A00532CBA /* ImageDisplayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B778FC5216BD01A00532CBA /* ImageDisplayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +34,24 @@
 		2B1D383D211E83EF00F3BADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B1D383F211E83EF00F3BADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B1D3842211E83EF00F3BADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2B1D3845211E83EF00F3BADD /* CanCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CanCam.xcdatamodel; sourceTree = "<group>"; };
 		2B1D3847211E83F100F3BADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1D384A211E83F100F3BADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1D384C211E83F100F3BADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1D3852211E88CF00F3BADD /* PhotosTakenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTakenVC.swift; sourceTree = "<group>"; };
+		2B1D3854211E8A5C00F3BADD /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		2B208815216B255A00FCF733 /* Timer@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer@1x.png"; sourceTree = "<group>"; };
+		2B208816216B255A00FCF733 /* Timer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer@2x.png"; sourceTree = "<group>"; };
+		2B208818216B255B00FCF733 /* Timer@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Timer@3x.png"; sourceTree = "<group>"; };
+		2B778FB3216B273A00532CBA /* Amount@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amount@1x.png"; sourceTree = "<group>"; };
+		2B778FB4216B273A00532CBA /* Amount@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amount@3x.png"; sourceTree = "<group>"; };
+		2B778FB5216B273A00532CBA /* Amount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Amount@2x.png"; sourceTree = "<group>"; };
+		2B778FB9216B296D00532CBA /* Reset@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reset@3x.png"; sourceTree = "<group>"; };
+		2B778FBA216B296D00532CBA /* Reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reset@2x.png"; sourceTree = "<group>"; };
+		2B778FBB216B296D00532CBA /* Gallery@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gallery@3x.png"; sourceTree = "<group>"; };
+		2B778FBC216B296E00532CBA /* Reset@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reset@1x.png"; sourceTree = "<group>"; };
+		2B778FBD216B296E00532CBA /* Gallery@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gallery@1x.png"; sourceTree = "<group>"; };
+		2B778FBE216B296E00532CBA /* Gallery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gallery@2x.png"; sourceTree = "<group>"; };
+		2B778FC5216BD01A00532CBA /* ImageDisplayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,37 @@
 		2B1D383C211E83EF00F3BADD /* CanCam */ = {
 			isa = PBXGroup;
 			children = (
+				2B208812216B254700FCF733 /* Images */,
 				2B1D383D211E83EF00F3BADD /* AppDelegate.swift */,
 				2B1D383F211E83EF00F3BADD /* ViewController.swift */,
 				2B1D3841211E83EF00F3BADD /* Main.storyboard */,
 				2B1D3847211E83F100F3BADD /* Assets.xcassets */,
 				2B1D3849211E83F100F3BADD /* LaunchScreen.storyboard */,
 				2B1D384C211E83F100F3BADD /* Info.plist */,
-				2B1D3844211E83EF00F3BADD /* CanCam.xcdatamodeld */,
+				2B1D3852211E88CF00F3BADD /* PhotosTakenVC.swift */,
+				2B1D3854211E8A5C00F3BADD /* PhotoCell.swift */,
+				2B778FC5216BD01A00532CBA /* ImageDisplayVC.swift */,
 			);
 			path = CanCam;
+			sourceTree = "<group>";
+		};
+		2B208812216B254700FCF733 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2B778FB3216B273A00532CBA /* Amount@1x.png */,
+				2B778FB5216B273A00532CBA /* Amount@2x.png */,
+				2B778FB4216B273A00532CBA /* Amount@3x.png */,
+				2B208815216B255A00FCF733 /* Timer@1x.png */,
+				2B208816216B255A00FCF733 /* Timer@2x.png */,
+				2B208818216B255B00FCF733 /* Timer@3x.png */,
+				2B778FBD216B296E00532CBA /* Gallery@1x.png */,
+				2B778FBE216B296E00532CBA /* Gallery@2x.png */,
+				2B778FBB216B296D00532CBA /* Gallery@3x.png */,
+				2B778FBC216B296E00532CBA /* Reset@1x.png */,
+				2B778FBA216B296D00532CBA /* Reset@2x.png */,
+				2B778FB9216B296D00532CBA /* Reset@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +175,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B778FC2216B296E00532CBA /* Reset@1x.png in Resources */,
+				2B778FC1216B296E00532CBA /* Gallery@3x.png in Resources */,
+				2B778FC4216B296E00532CBA /* Gallery@2x.png in Resources */,
 				2B1D384B211E83F100F3BADD /* LaunchScreen.storyboard in Resources */,
 				2B1D3848211E83F100F3BADD /* Assets.xcassets in Resources */,
+				2B20881C216B255B00FCF733 /* Timer@2x.png in Resources */,
+				2B778FB6216B273A00532CBA /* Amount@1x.png in Resources */,
+				2B778FB8216B273A00532CBA /* Amount@2x.png in Resources */,
 				2B1D3843211E83EF00F3BADD /* Main.storyboard in Resources */,
+				2B778FC3216B296E00532CBA /* Gallery@1x.png in Resources */,
+				2B20881B216B255B00FCF733 /* Timer@1x.png in Resources */,
+				2B20881E216B255B00FCF733 /* Timer@3x.png in Resources */,
+				2B778FB7216B273A00532CBA /* Amount@3x.png in Resources */,
+				2B778FC0216B296E00532CBA /* Reset@2x.png in Resources */,
+				2B778FBF216B296E00532CBA /* Reset@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B778FC6216BD01A00532CBA /* ImageDisplayVC.swift in Sources */,
+				2B1D3855211E8A5C00F3BADD /* PhotoCell.swift in Sources */,
 				2B1D3840211E83EF00F3BADD /* ViewController.swift in Sources */,
-				2B1D3846211E83EF00F3BADD /* CanCam.xcdatamodeld in Sources */,
+				2B1D3853211E88CF00F3BADD /* PhotosTakenVC.swift in Sources */,
 				2B1D383E211E83EF00F3BADD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,19 +402,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2B1D3844211E83EF00F3BADD /* CanCam.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2B1D3845211E83EF00F3BADD /* CanCam.xcdatamodel */,
-			);
-			currentVersion = 2B1D3845211E83EF00F3BADD /* CanCam.xcdatamodel */;
-			path = CanCam.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2B1D3832211E83EF00F3BADD /* Project object */;
 }
